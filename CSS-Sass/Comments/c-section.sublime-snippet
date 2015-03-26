@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+/*--------------------------------------------------------------
+# ${1:}
+--------------------------------------------------------------*/
+${2:}
+]]></content>
+	<tabTrigger>c-section</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.sass - meta.property-list - support.function.name.sass.library - variable.other.root, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>section comment</description>
+</snippet>

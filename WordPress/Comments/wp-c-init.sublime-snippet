@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+/*
+Theme Name: ${1:}
+Theme URI: ${2:}
+Author: ${3:}
+Author URI: ${4:}
+Description: ${5:}
+Version: ${6:0.1.0}
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ${7:}
+Tags: ${8:}
+*/
+]]></content>
+	<tabTrigger>wp-c-init</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.sass - meta.property-list - support.function.name.sass.library - variable.other.root, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>table of contents</description>
+</snippet>

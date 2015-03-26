@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<?php if ( has_post_thumbnail() ) : ?>
+	<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
+		<?php the_post_thumbnail('${1:large}', array('class' => '${2:aligncenter}')); ?>
+	</a>
+<?php endif; ?>
+]]></content>
+	<tabTrigger>wp-fi</tabTrigger>
+	<scope>text.html</scope>
+	<description>if statement for featured image</description>
+</snippet>
