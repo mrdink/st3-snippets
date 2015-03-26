@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/*
+ * Add responsive container to embeds
+ */
+function ${1:theme_name}_embed_oembed_class($html, $url, $attr, $post_id) {
+  return '<div class="embed-container">' . $html . '</div>';
+}
+add_filter('embed_oembed_html', '${1:theme_name}_embed_oembed_class', 99, 4);
+]]></content>
+	<tabTrigger>wp-embed</tabTrigger>
+	<scope>text.html</scope>
+	<description>add responsive container to embeds</description>
+</snippet>

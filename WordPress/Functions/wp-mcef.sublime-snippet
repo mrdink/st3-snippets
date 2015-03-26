@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+/*
+ * Callback function to filter the MCE settings
+ */
+function ${1:theme_name}_mce_buttons($buttons) {
+	array_unshift($buttons, 'styleselect');
+	return $buttons;
+}
+add_filter('mce_buttons_2', '${1:theme_name}_mce_buttons');
+
+function ${1:theme_name}_insert_formats( $init_array ) {
+	$style_formats = array(
+		array(
+			'title' => '${2:Button}',
+			'block' => '${3:a}',
+			'classes' => '${4:button}',
+			'wrapper' => true,
+		)
+	);
+	$init_array['style_formats'] = json_encode( $style_formats );
+
+	return $init_array;
+}
+add_filter( 'tiny_mce_before_init', '${1:theme_name}_insert_formats' );
+]]></content>
+	<tabTrigger>wp-mcef</tabTrigger>
+	<scope>text.html</scope>
+	<description>callback function to filter the MCE settings</description>
+</snippet>

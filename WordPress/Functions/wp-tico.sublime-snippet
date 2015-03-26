@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/*
+ * Apple touch icons + favicon
+ */
+function ${1:theme_name}_add_icons() { ?>
+
+	<link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/ico/favicon.png" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="152x152" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/ico/apple-touch-icon-152x152.png" />
+
+<?php }
+add_action('wp_head','${1:theme_name}_add_icons');
+]]></content>
+	<tabTrigger>wp-tico</tabTrigger>
+	<scope>text.html</scope>
+	<description>Apple touch icons + favicon</description>
+</snippet>

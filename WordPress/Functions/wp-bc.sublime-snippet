@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Add page name as class to body
+ */
+function ${1:theme_name}_add_slug_body_class( $classes ) {
+	global $post;
+
+	if ( isset( $post ) ) {
+		$classes[] = $post->post_type . '-' . $post->post_name;
+	}
+
+	return $classes;
+}
+add_filter( 'body_class', '${1:theme_name}_add_slug_body_class' );
+]]></content>
+	<tabTrigger>wp-bc</tabTrigger>
+	<scope>text.html</scope>
+	<description>Add page name as class to body</description>
+</snippet>
