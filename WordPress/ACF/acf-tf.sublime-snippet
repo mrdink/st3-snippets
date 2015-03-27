@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+the_field('${1:field_name}');
+]]></content>
+	<tabTrigger>acf-tf</tabTrigger>
+	<scope>text.html</scope>
+	<description>the field</description>
+</snippet>

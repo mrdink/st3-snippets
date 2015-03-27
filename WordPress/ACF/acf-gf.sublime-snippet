@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+get_field('${1:field_name}');
+]]></content>
+	<tabTrigger>acf-gf</tabTrigger>
+	<scope>text.html</scope>
+	<description>get field</description>
+</snippet>
