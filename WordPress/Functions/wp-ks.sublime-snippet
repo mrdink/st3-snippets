@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Show Kitchen Sink in WYSIWYG Editor
+ */
+function ${1:theme_name}_unhide_kitchensink( $args ) {
+	$args['wordpress_adv_hidden'] = false;
+	return $args;
+}
+add_filter( 'tiny_mce_before_init', '${1:theme_name}_unhide_kitchensink' );
+]]></content>
+	<tabTrigger>wp-ks</tabTrigger>
+	<scope>text.html</scope>
+	<description>show kitchen sink in wysiwyg editor</description>
+</snippet>

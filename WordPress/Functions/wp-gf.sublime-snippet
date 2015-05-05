@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-<?php
-
 if ( ! function_exists( '${1:theme_name}_fonts_url' ) ) :
 /**
  * Register Google fonts for ${2:Theme Name}.

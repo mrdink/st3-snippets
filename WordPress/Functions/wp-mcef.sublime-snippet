@@ -12,9 +12,9 @@ add_filter('mce_buttons_2', '${1:theme_name}_mce_buttons');
 function ${1:theme_name}_insert_formats( \$init_array ) {
 	\$style_formats = array(
 		array(
-			'title' => '\${2:Button}',
-			'block' => '\${3:a}',
-			'classes' => '\${4:button}',
+			'title' => '${2:Button}',
+			'block' => '${3:a}',
+			'classes' => '${4:button}',
 			'wrapper' => true,
 		)
 	);
