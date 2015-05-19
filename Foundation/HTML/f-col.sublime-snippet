@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="${1:medium}-${2:6}">
+	${3:}
+</div>
+]]></content>
+	<tabTrigger>f-col</tabTrigger>
+	<scope>text.html</scope>
+	<description>foundation col</description>
+</snippet>

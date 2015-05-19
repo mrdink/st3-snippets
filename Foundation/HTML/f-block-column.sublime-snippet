@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<ul class="${1:medium}-block-grid-${2:3}">
+	<li>${3:}</li>
+</ul>
+]]></content>
+	<tabTrigger>f-bg</tabTrigger>
+	<scope>text.html</scope>
+	<description>foundation block grid</description>
+</snippet>

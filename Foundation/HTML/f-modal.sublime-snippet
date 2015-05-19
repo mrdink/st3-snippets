@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<a href="#" data-reveal-id="myModal">Click Me For A Modal</a>
+
+<div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  ${1:}
+</div>
+]]></content>
+	<tabTrigger>f-modal</tabTrigger>
+	<scope>text.html</scope>
+	<description>foundation modal</description>
+</snippet>
