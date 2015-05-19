@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<?php echo esc_url( get_template_directory_uri() ); ?>/${1:}
+]]></content>
+	<tabTrigger>f-row</tabTrigger>
+	<scope>text.html</scope>
+	<description>row</description>
+</snippet>
