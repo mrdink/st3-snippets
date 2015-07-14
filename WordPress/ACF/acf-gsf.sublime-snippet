@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+get_sub_field('${1:field_name}');
+]]></content>
+	<tabTrigger>acf-gsf</tabTrigger>
+	<scope>text.html</scope>
+	<description>get sub field</description>
+</snippet>
